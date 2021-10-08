@@ -10,5 +10,3 @@ Ces logiciels sont disponibles sous forme d'executable pour les personnes ne pos
 En cas de problème lors de l'utilisation des programmes, veuillez nous contacter à <a href="mailto: commercial@elc.fr">commercial@elc.fr</a> ou au +33 4 50 57 30 46.  
 </br>
 </br>
-
-<img src="Documentation/Images/ALR32XX.png" alt="Gamme d'alimentations programmables">
