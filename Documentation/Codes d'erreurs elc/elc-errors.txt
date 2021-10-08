@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Pour : Exécutable GF467-E2 : 5000 à 5006
+ALR 3220 et 3206 : 5007  à 5018 (5011-5016= WARNING)
+Banc Test ALR3220 et 3206D (Autocal) : 5019 à 5022, 5026, 5027(Warning), 5040-5050
+Géné Fonction ALR3220 : 5023 à 5025, 5028
+Faire dérouler pour la suite ••/••
+Banc test réglage final GF467 avec scope fluke :  5031 à 5034
+Mesure Linéarité : 5029-5030
+Nouveaux produits elc (ALR3206, etc..) : 5035-5050
+PM6306 => 5100 à 5110
+BK 8510 => 5110 à 5120
+
+
+
+
+
+
+
+<nifamily familyname="Gamme Erreurs ELC" displayname="Erreurs ELC">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+Pas d'erreur : Opération normale.
+</nierror>
+<nierror code="5001">
+Retour chaîne de caractères incorrecte.
+</nierror>
+<nierror code="5002">
+La fréquence choisie n'a pas été envoyée correctement.
+"Veuillez vérifier que le générateur est bien branché à l'ordinateur"
+</nierror>
+<nierror code="5003">
+L'amplitude ou la fonction ATT n'ont pas été envoyées correctement.
+</nierror>
+<nierror code="5004">
+Fréquence non reconnue.
+</nierror>
+<nierror code="5005">
+L'offset ou la fonction CMOS n'a pas été envoyé correctement.
+Veuillez vérifier que le générateur est bien branché à l'ordinateur
+</nierror>
+<nierror code="5006">
+Fréquence incorrecte.
+</nierror>
+<nierror code="5007">
+Mémoire Vide
+</nierror>
+<nierror code="5008">
+Libre pour Err Custom
+</nierror>
+<nierror code="5009">
+Erreur de syntaxe (OK non reçu)
+</nierror>
+<nierror code="5010">
+! Mode Local : Appuyez sur 2nd, puis LOCAL pour passer en Remote.
+</nierror>
+<nierror code="5011">
+Tension Hors Limites.
+</nierror>
+<nierror code="5012">
+Tension dépasse OVP.
+</nierror>
+<nierror code="5013">
+Courant Hors Limites.
+</nierror>
+<nierror code="5014">
+Courant dépasse OCP.
+</nierror>
+<nierror code="5015">
+OVP Hors Limites.
+</nierror>
+<nierror code="5016">
+OCP Hors Limites.
+</nierror>
+<nierror code="5017">
+Pas de renvoi de caractères. Vérifier la liaison PC : Alim.
+</nierror>
+<nierror code="5018">
+Chaîne de caractères non reconnus
+</nierror>
+<nierror code="5019">
+Dépassement Offset I
+</nierror>
+<nierror code="5020">
+Tension d'offset positive : Défaut Alim
+</nierror>
+<nierror code="5021">
+Délai dépassé : Problème mesure ou Défaut Alim
+</nierror>
+<nierror code="5022">
+Courant limite dépassé : Défaut Alim
+</nierror>
+<nierror code="5023">
+Géné Fonction : Amplitude signal trop faible
+</nierror>
+<nierror code="5024">
+Géné Fonction : Vmax sup. à 32V ou Imax sup à 20,5A !
+</nierror>
+<nierror code="5025">
+Géné Fonction : Vmax inf. à Vmin  ou Imax inf. à Imin !
+</nierror>
+<nierror code="5026">
+Tension max inf. à 28V : Défaut Alim
+</nierror>
+<nierror code="5027">
+Problème Connexion ALR3206D (Voie2)
+</nierror>
+<nierror code="5028">
+Granularité Insuffisante
+</nierror>
+<nierror code="5029">
+Doublon dans résultat alim
+</nierror>
+<nierror code="5030">
+Doublon dans résultat mesure
+</nierror>
+<nierror code="5031">
+Syntax Error PM3380
+</nierror>
+<nierror code="5032">
+Exec Error PM 3380
+</nierror>
+<nierror code="5033">
+Synchro Error PM 3380
+</nierror>
+<nierror code="5034">
+Comm Error PM 3380
+</nierror>
+<nierror code="5035">
+
+</nierror>
+<nierror code="5036">
+
+</nierror>
+<nierror code="5037">
+
+</nierror>
+<nierror code="5038">
+
+</nierror>
+<nierror code="5039">
+
+</nierror>
+<nierror code="5040">
+Autocal : Erreur 0 V (CH1 et CH2)
+</nierror>
+<nierror code="5041">
+Autocal : Erreur 32 V (CH1 et CH2)
+</nierror>
+<nierror code="5042">
+Autocal : Erreur 0 A (CH1 et CH2)
+</nierror>
+<nierror code="5043">
+Autocal : Erreur 6A  (CH1 et CH2)
+</nierror>
+<nierror code="5044">
+Autocal : BT3206 non reconnu
+</nierror>
+<nierror code="5045">
+Autocal : Carte absente
+</nierror>
+<nierror code="5046">
+Autocal : Erreur 1 V (CH3)
+</nierror>
+<nierror code="5047">
+Autocal : Erreur 15 V (CH3)
+</nierror>
+<nierror code="5048">
+Autocal : Erreur 3 A (CH3)
+</nierror>
+<nierror code="5049">
+Problème fichier (.ini, .csv, .htm)
+</nierror>
+<nierror code="5050">
+
+</nierror>
+<nierror code="5100">
+PM6306 : Erreur interne :
+</nierror>
+<nierror code="5101">
+PM6306 : La fonction Write n'a pas écrit le nombre correct d'octets.
+</nierror>
+<nierror code="5102">
+PM6306 : Marque ou Modèle non reconnu.
+</nierror>
+<nierror code="5103">
+Problème d'initialisation
+</nierror>
+<nierror code="5104">
+
+</nierror>
+<nierror code="5105">
+
+</nierror>
+<nierror code="5106">
+
+</nierror>
+<nierror code="5107">
+
+</nierror>
+<nierror code="5108">
+
+</nierror>
+<nierror code="5109">
+
+</nierror>
+<nierror code="5110">
+BK8510 : La commande “Enable Input Terminals” ne répond pas
+</nierror>
+</nidocument>
